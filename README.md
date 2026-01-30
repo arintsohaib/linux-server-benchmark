@@ -3,7 +3,7 @@
 A simple, reproducible benchmark suite for Linux servers focused on **CPU, memory, and disk performance**.
 
 Designed for:
-- Cloud VPS comparison (Hetzner, Netcup, AWS, DO, etc.)
+- Cloud VPS comparison (OVH,Hetzner, Netcup, AWS, DO, etc.)
 - Build/compile workloads (Node.js, Python, Docker, CI)
 - Debian-based systems (Debian 12 / 13)
 
@@ -51,7 +51,7 @@ This script:
 ## Usage
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linux-server-benchmark.git
+git clone https://github.com/arintsohaib/linux-server-benchmark.git
 cd linux-server-benchmark
 chmod +x benchmark.sh
 sudo ./benchmark.sh
