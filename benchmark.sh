@@ -15,7 +15,7 @@ echo
 
 echo "### Installing dependencies ###"
 apt update
-apt install -y sysbench fio linux-cpupower util-linux procps
+apt install -y sysbench fio util-linux procps
 echo
 
 echo "### Setting CPU governor to PERFORMANCE ###"
